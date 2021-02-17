@@ -1,0 +1,16 @@
+{
+  "Pet_names": [
+    {
+      "name": "Dogs and Puppies",
+      "image": "https://firebasestorage.googleapis.com/v0/b/petcalls-3e4e4.appspot.com/o/images%2Fpuppy.jpg?alt=media&token=17047e18-6fff-4bcd-b009-8d63c96c2c3d"
+    },
+    {
+      "name": "Cats and Kittens",
+      "image": "https://firebasestorage.googleapis.com/v0/b/petcalls-3e4e4.appspot.com/o/images%2Fkitten.jpg?alt=media&token=5b962d9b-3839-4344-bfaf-9e24409af77d"
+    }
+  ],
+  "Pet_services": [
+    { "name": "Cutting", "icon_name": "scissors" },
+    { "name": "Cutting", "icon_name": "circle" }
+  ]
+}

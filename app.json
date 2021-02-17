@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PetCalls",
+    "slug": "PetCalls",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f9ab2b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petcalls.petcalls",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.petcalls.petcalls",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#f9ab2b"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "description": "Pet Calls",
+    "githubUrl": "https://github.com/merrillkoshy/Pet-Calls"
+  }
+}
