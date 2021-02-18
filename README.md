@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">An online et Grooming Platform</a>.</h4>
+<h4 align="center">An online Pet Grooming Platform</a>.</h4>
 
 ## License
 
