@@ -15,7 +15,7 @@ const RootTab = () => {
       }}
     >
       <Tab.Screen
-        name="Home"
+        name="HomeTab"
         options={{
           tabBarIcon: ({ focused, color, size }) => (
             <Icon

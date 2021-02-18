@@ -5,6 +5,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import MenuDrawer from "../components/drawer/MenuDrawer";
 import LoginStackScreen from "./LoginStackScreen";
 import RootTab from "./RootTab";
+import BookingStackScreen from "./BookingStackScreen";
 const Drawer = createDrawerNavigator();
 
 const RootDrawer = () => {
@@ -21,8 +22,9 @@ const RootDrawer = () => {
         inactiveTintColor: "#0c0c0c"
       }}
     >
-      <Drawer.Screen name="Home" component={RootTab} />
+      <Drawer.Screen name="RootHome" component={RootTab} />
       <Drawer.Screen name="Login" component={LoginStackScreen} />
+      <Drawer.Screen name="Booking" component={BookingStackScreen} />
     </Drawer.Navigator>
   );
 };

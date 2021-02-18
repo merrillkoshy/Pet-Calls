@@ -48,6 +48,7 @@ function LandingPageSlide(props) {
             contentContainerStyle={styles.scrollArea3_contentContainerStyle}
           >
             <DataCard
+              {...props}
               userData={props.userData}
               style={styles.materialCardWithImageAndTitle1}
             ></DataCard>

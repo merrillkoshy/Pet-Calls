@@ -11,6 +11,7 @@ export default function HomeScreen(props) {
         <ScrollView horizontal>
           <LandingPageSlide
             key={uuidv4()}
+            {...props}
             userData={props.extraData}
             style={styles.landingPageSlide}
           ></LandingPageSlide>

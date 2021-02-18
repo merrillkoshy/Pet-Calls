@@ -8,8 +8,7 @@ export default StyleSheet.create({
     flexDirection: "column",
     marginTop: 12,
     marginLeft: 40,
-    marginRight: 40,
-    textAlign: "center"
+    marginRight: 40
   },
   image4Row: {
     height: 118,
@@ -30,12 +29,14 @@ export default StyleSheet.create({
     width: 291
   },
   icon8: {
+    textAlign: "center",
     color: "rgba(12,12,12,1)",
     fontSize: RFPercentage(3),
     height: 50,
     width: 54
   },
   icon9: {
+    textAlign: "center",
     color: "rgba(12,12,12,1)",
     fontSize: RFPercentage(3),
     height: 59,
@@ -49,11 +50,13 @@ export default StyleSheet.create({
     marginRight: 53
   },
   cutting: {
+    textAlign: "center",
     marginTop: 5,
     fontFamily: "Minimo",
     color: "#121212"
   },
   combing: {
+    textAlign: "center",
     fontFamily: "Minimo",
     color: "#121212",
     marginLeft: 85
@@ -71,6 +74,7 @@ export default StyleSheet.create({
     width: 54
   },
   icon11: {
+    textAlign: "center",
     color: "rgba(12,12,12,1)",
     fontSize: RFPercentage(3),
     height: 59,

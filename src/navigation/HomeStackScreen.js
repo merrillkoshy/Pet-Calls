@@ -8,6 +8,7 @@ import { decode, encode } from "base-64";
 import LogoBox from "../components/header/LogoBox";
 import MenuButton from "../components/header/MenuButton";
 import { RFPercentage } from "react-native-responsive-fontsize";
+import CalendarsScreen from "../screens/Booking/BookingScreen";
 // prettier-ignore
 if (!global.btoa) {  global.btoa = encode }
 // prettier-ignore
@@ -67,6 +68,7 @@ export default function HomeStackScreen(props) {
         </Stack.Screen>
       ) : (
         <>
+          <Stack.Screen name="Booking" component={CalendarsScreen} />
           <Stack.Screen name="Login" component={LoginScreen} />
           <Stack.Screen name="Registration" component={RegistrationScreen} />
         </>

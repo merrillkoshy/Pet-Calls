@@ -21,12 +21,12 @@ function Pets(props) {
               return (
                 <View key={uuidv4()} style={styles.PetItemBox}>
                   <Image
-                    key={item.name}
+                    key={uuidv4()}
                     source={{ uri: item.image }}
                     resizeMode="contain"
                     style={styles.image1}
                   />
-                  <Text key={item.name} style={styles.dogsAndPuppies2}>
+                  <Text key={uuidv4()} style={styles.dogsAndPuppies2}>
                     {item.name}
                   </Text>
                 </View>

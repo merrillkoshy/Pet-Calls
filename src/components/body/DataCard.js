@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import styles from "./styles/BookingCardStyles";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
-function DataCard(userData, ...props) {
+function DataCard(props) {
+  const userData = props.userData;
   return (
     <View style={[styles.container, props.style]}>
       {userData.booking ? (
@@ -13,8 +14,12 @@ function DataCard(userData, ...props) {
         </View>
       ) : (
         <View style={styles.cardBody}>
-          <Icon name="plus" style={styles.icon}></Icon>
-          <Text style={styles.yourCurrentBooking}>Book Now</Text>
+          <TouchableOpacity
+            onPress={() => props.navigation.navigate("Booking")}
+          >
+            <Icon name="plus" style={styles.icon}></Icon>
+            <Text style={styles.yourCurrentBooking}>Book Now</Text>
+          </TouchableOpacity>
         </View>
       )}
     </View>
