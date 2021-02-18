@@ -19,7 +19,7 @@ export default function ContactStackScreen(props) {
           headerTitleStyle: {
             alignSelf: "center",
             fontSize: RFPercentage(3),
-            fontFamily: "PetCallsPrimary"
+            fontFamily: "Chocolate Bar Demo"
           },
           headerStyle: {
             backgroundColor: "#F9AB2B"

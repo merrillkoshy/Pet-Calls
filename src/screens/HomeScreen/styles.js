@@ -2,7 +2,9 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "center"
   },
 
   landingPageSCrollArea: {
@@ -14,8 +16,6 @@ export default StyleSheet.create({
     marginLeft: 1
   },
   landingPageSlide: {
-    width: 688,
-    marginTop: -18,
-    marginLeft: -20
+    width: 688
   }
 });
